@@ -1,0 +1,1 @@
+export { HeroiconsOutlineGift } from "./HeroiconsOutlineGift";

@@ -1,0 +1,142 @@
+.cell {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+  position: relative;
+}
+
+.cell .ellipse-2 {
+  height: 40px;
+  min-width: 40px;
+  object-fit: cover;
+  position: relative;
+}
+
+.cell .frame-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+  width: fit-content;
+}
+
+.cell .label {
+  color: var(--gray-900);
+  font-family: var(--text-medium-font-family);
+  font-size: var(--text-medium-font-size);
+  font-style: var(--text-medium-font-style);
+  font-weight: var(--text-medium-font-weight);
+  letter-spacing: var(--text-medium-letter-spacing);
+  line-height: var(--text-medium-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.cell .second-label {
+  color: var(--gray-600);
+  font-family: var(--text-s-regular-font-family);
+  font-size: var(--text-s-regular-font-size);
+  font-style: var(--text-s-regular-font-style);
+  font-weight: var(--text-s-regular-font-weight);
+  letter-spacing: var(--text-s-regular-letter-spacing);
+  line-height: var(--text-s-regular-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.cell .frame-5 {
+  position: relative;
+  width: fit-content;
+}
+
+.cell.image-2-lines {
+  width: 200px;
+}
+
+.cell.header-right {
+  justify-content: flex-end;
+  width: fit-content;
+}
+
+.cell.header-left {
+  width: fit-content;
+}
+
+.cell.text {
+  width: 36px;
+}
+
+.cell.figure {
+  justify-content: flex-end;
+  width: fit-content;
+}
+
+.cell.two-lines {
+  width: 200px;
+}
+
+.cell.status {
+  justify-content: flex-end;
+  width: fit-content;
+}
+
+.cell.header-right .frame-5 {
+  color: var(--gray-600);
+  font-family: var(--text-regular-font-family);
+  font-size: var(--text-regular-font-size);
+  font-style: var(--text-regular-font-style);
+  font-weight: var(--text-regular-font-weight);
+  letter-spacing: var(--text-regular-letter-spacing);
+  line-height: var(--text-regular-line-height);
+  margin-top: -1px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.cell.header-left .frame-5 {
+  color: var(--gray-600);
+  font-family: var(--text-regular-font-family);
+  font-size: var(--text-regular-font-size);
+  font-style: var(--text-regular-font-style);
+  font-weight: var(--text-regular-font-weight);
+  letter-spacing: var(--text-regular-letter-spacing);
+  line-height: var(--text-regular-line-height);
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.cell.text .frame-5 {
+  color: var(--gray-900);
+  font-family: var(--text-regular-font-family);
+  font-size: var(--text-regular-font-size);
+  font-style: var(--text-regular-font-style);
+  font-weight: var(--text-regular-font-weight);
+  letter-spacing: var(--text-regular-letter-spacing);
+  line-height: var(--text-regular-line-height);
+  margin-top: -1px;
+  white-space: nowrap;
+}
+
+.cell.figure .frame-5 {
+  color: var(--gray-900);
+  font-family: var(--text-medium-font-family);
+  font-size: var(--text-medium-font-size);
+  font-style: var(--text-medium-font-style);
+  font-weight: var(--text-medium-font-weight);
+  letter-spacing: var(--text-medium-letter-spacing);
+  line-height: var(--text-medium-line-height);
+  margin-top: -1px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.cell.two-lines .frame-5 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}

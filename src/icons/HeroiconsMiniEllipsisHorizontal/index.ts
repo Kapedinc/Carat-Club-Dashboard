@@ -1,0 +1,1 @@
+export { HeroiconsMiniEllipsisHorizontal } from "./HeroiconsMiniEllipsisHorizontal";

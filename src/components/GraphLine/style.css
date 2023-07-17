@@ -1,0 +1,268 @@
+.graph-line {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--gray-100);
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 24px;
+  position: relative;
+  width: 354px;
+}
+
+.graph-line .div {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+  width: fit-content;
+}
+
+.graph-line .annual-spend {
+  color: var(--gray-900);
+  font-family: var(--text-medium-font-family);
+  font-size: var(--text-medium-font-size);
+  font-style: var(--text-medium-font-style);
+  font-weight: var(--text-medium-font-weight);
+  letter-spacing: var(--text-medium-letter-spacing);
+  line-height: var(--text-medium-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.graph-line .this-month {
+  color: var(--gray-500);
+  font-family: var(--text-s-regular-font-family);
+  font-size: var(--text-s-regular-font-size);
+  font-style: var(--text-s-regular-font-style);
+  font-weight: var(--text-s-regular-font-weight);
+  letter-spacing: var(--text-s-regular-letter-spacing);
+  line-height: var(--text-s-regular-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.graph-line .group {
+  height: 153px;
+  margin-right: -6px;
+  min-width: 312px;
+  position: relative;
+}
+
+.graph-line .mar {
+  color: var(--gray-900);
+  font-family: var(--text-XS-regular-font-family);
+  font-size: var(--text-XS-regular-font-size);
+  font-style: var(--text-XS-regular-font-style);
+  font-weight: var(--text-XS-regular-font-weight);
+  left: 44px;
+  letter-spacing: var(--text-XS-regular-letter-spacing);
+  line-height: var(--text-XS-regular-line-height);
+  position: absolute;
+  top: 139px;
+  white-space: nowrap;
+}
+
+.graph-line .overlap {
+  height: 109px;
+  left: 0;
+  position: absolute;
+  top: 19px;
+  width: 305px;
+}
+
+.graph-line .element {
+  color: var(--gray-900);
+  font-family: var(--text-XS-regular-font-family);
+  font-size: var(--text-XS-regular-font-size);
+  font-style: var(--text-XS-regular-font-style);
+  font-weight: var(--text-XS-regular-font-weight);
+  left: 0;
+  letter-spacing: var(--text-XS-regular-letter-spacing);
+  line-height: var(--text-XS-regular-line-height);
+  position: absolute;
+  top: 88px;
+  white-space: nowrap;
+}
+
+.graph-line .overlap-group {
+  height: 109px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 305px;
+}
+
+.graph-line .line {
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 107px;
+  width: 304px;
+}
+
+.graph-line .img {
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 304px;
+}
+
+.graph-line .vector {
+  height: 109px;
+  left: 44px;
+  position: absolute;
+  top: 0;
+  width: 261px;
+}
+
+.graph-line .element-2 {
+  color: var(--gray-900);
+  font-family: var(--text-XS-regular-font-family);
+  font-size: var(--text-XS-regular-font-size);
+  font-style: var(--text-XS-regular-font-style);
+  font-weight: var(--text-XS-regular-font-weight);
+  left: 0;
+  letter-spacing: var(--text-XS-regular-letter-spacing);
+  line-height: var(--text-XS-regular-line-height);
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.graph-line .mar-2 {
+  color: var(--gray-900);
+  font-family: var(--text-XS-regular-font-family);
+  font-size: var(--text-XS-regular-font-size);
+  font-style: var(--text-XS-regular-font-style);
+  font-weight: var(--text-XS-regular-font-weight);
+  left: 235px;
+  letter-spacing: var(--text-XS-regular-letter-spacing);
+  line-height: var(--text-XS-regular-line-height);
+  position: absolute;
+  text-align: right;
+  top: 139px;
+  white-space: nowrap;
+}
+
+.graph-line .line-2 {
+  height: 5px;
+  left: 44px;
+  position: absolute;
+  top: 128px;
+  width: 1px;
+}
+
+.graph-line .line-3 {
+  height: 5px;
+  left: 304px;
+  position: absolute;
+  top: 128px;
+  width: 1px;
+}
+
+.graph-line .overlap-wrapper {
+  height: 106px;
+  left: 202px;
+  position: absolute;
+  top: 119px;
+  width: 130px;
+}
+
+.graph-line .overlap-2 {
+  height: 106px;
+  position: relative;
+}
+
+.graph-line .overlap-3 {
+  height: 106px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 14px;
+}
+
+.graph-line .line-4 {
+  height: 106px;
+  left: 3px;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.graph-line .group-2 {
+  height: 16px;
+  left: 0;
+  position: absolute;
+  top: 58px;
+  width: 14px;
+}
+
+.graph-line .frame-2 {
+  -webkit-backdrop-filter: blur(4px) brightness(100%);
+  align-items: flex-start;
+  backdrop-filter: blur(4px) brightness(100%);
+  background-color: #ffffffe6;
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px #0000001a, 0px 1px 1px #0000000f, 0px 0px 1px #00000033;
+  display: flex;
+  justify-content: space-between;
+  left: 13px;
+  padding: 6px 8px;
+  position: absolute;
+  top: 30px;
+  width: 117px;
+}
+
+.graph-line .frame-3 {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  position: relative;
+  width: fit-content;
+}
+
+.graph-line .ellipse {
+  background-color: var(--primary-500);
+  border-radius: 5px;
+  height: 10px;
+  min-width: 10px;
+  position: relative;
+}
+
+.graph-line .mar-3 {
+  color: var(--gray-700);
+  font-family: var(--text-XS-regular-font-family);
+  font-size: var(--text-XS-regular-font-size);
+  font-style: var(--text-XS-regular-font-style);
+  font-weight: var(--text-XS-regular-font-weight);
+  letter-spacing: var(--text-XS-regular-letter-spacing);
+  line-height: var(--text-XS-regular-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.graph-line .element-3 {
+  color: var(--gray-900);
+  font-family: var(--text-XS-regular-font-family);
+  font-size: var(--text-XS-regular-font-size);
+  font-style: var(--text-XS-regular-font-style);
+  font-weight: var(--text-XS-regular-font-weight);
+  letter-spacing: var(--text-XS-regular-letter-spacing);
+  line-height: var(--text-XS-regular-line-height);
+  margin-top: -2px;
+  position: relative;
+  text-align: right;
+  white-space: nowrap;
+  width: fit-content;
+}

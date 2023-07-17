@@ -1,0 +1,105 @@
+.row {
+  align-items: center;
+  border: 1px solid;
+  border-color: var(--gray-100);
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 1054px;
+}
+
+.row .frame-6 {
+  align-items: center;
+  display: flex;
+  gap: 96px;
+  position: relative;
+  width: fit-content;
+}
+
+.row .class {
+  width: 200px !important;
+}
+
+.row .cell-instance {
+  width: 80px !important;
+}
+
+.row .group-3 {
+  height: 17px;
+  left: 194px;
+  position: absolute;
+  top: 13px;
+  width: 14px;
+}
+
+.row .frame-7 {
+  display: flex;
+  gap: 96px;
+  padding: 0px 100px 0px 0px;
+  position: relative;
+  width: fit-content;
+}
+
+.row .badge-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 80px;
+}
+
+.row .frame-wrapper {
+  align-items: flex-start;
+  display: flex;
+  gap: 24px;
+  position: relative;
+  width: fit-content;
+}
+
+.row.row-header {
+  background-color: var(--white);
+  border-radius: 24px 24px 0px 0px;
+  padding: 16px 24px;
+}
+
+.row.row-last {
+  background-color: var(--white);
+  border-radius: 0px 0px 24px 24px;
+  padding: 24px;
+}
+
+.row.row-first {
+  background-color: var(--white);
+  padding: 24px;
+}
+
+.row.row-default {
+  background-color: var(--white);
+  padding: 24px;
+}
+
+.row.row-hover {
+  background-color: var(--gray-000);
+  padding: 24px;
+}
+
+.row.row-header .frame-7 {
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.row.row-last .frame-7 {
+  align-items: center;
+}
+
+.row.row-first .frame-7 {
+  align-items: center;
+}
+
+.row.row-default .frame-7 {
+  align-items: center;
+}
+
+.row.row-hover .frame-7 {
+  align-items: flex-start;
+}
