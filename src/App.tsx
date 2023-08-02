@@ -2,7 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import { ThemeProvider, StyledEngineProvider } from '@mui/material/styles';
-import questTheme from 'src/CaratDesignSystemLightTheme';
+import questTheme from './CaratDesignSystemLightTheme';
 
 function App() {
   return (
